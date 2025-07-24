@@ -78,5 +78,7 @@ Episode 5: Total reward =  -2.96
 ###  Author
 
 **Rahim Baig**  
-Data Analyst, Community Planning & Advocacy Council  
-📫 rahimbaig00332211@gmail.com
+Aspiring Machine Learning & Generative AI Practitioner  
+📫 rahimbaig00332211@gmail.com  
+Currently exploring reinforcement learning, data visualization, and real-world AI applications in public policy and community development.
+
