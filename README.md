@@ -1,8 +1,8 @@
-# DDPG Pendulum Controller 🎯
+# DDPG Pendulum Controller 
 
 This project implements a **Deep Deterministic Policy Gradient (DDPG)** reinforcement learning agent to solve the classic **Pendulum-v1** environment using the **Stable-Baselines3** library. The Pendulum task involves applying continuous torque to swing and balance a pendulum upright.
 
-## 🧠 Algorithm
+##  Algorithm
 
 **DDPG** is an off-policy, actor-critic algorithm designed for environments with **continuous action spaces**. It combines deterministic policy learning with a Q-function estimator and uses techniques such as:
 
@@ -10,7 +10,7 @@ This project implements a **Deep Deterministic Policy Gradient (DDPG)** reinforc
 - Target networks
 - Action noise for exploration
 
-## 📦 Dependencies
+##  Dependencies
 
 Install required packages with:
 
@@ -18,7 +18,7 @@ Install required packages with:
 pip install gymnasium[classic-control] stable-baselines3[extra] shimmy
 ```
 
-## 🚀 How to Run
+##  How to Run
 
 ```python
 import gymnasium as gym
@@ -50,7 +50,7 @@ for ep in range(episodes):
     print(f"Episode {ep+1}: Total reward = {total_reward:.2f}")
 ```
 
-## 📈 Sample Output
+##  Sample Output
 
 ```
 Episode 1: Total reward = -116.46
@@ -62,20 +62,20 @@ Episode 5: Total reward =  -2.96
 
 > Note: Rewards closer to 0 indicate better control. The minimum possible reward is around -200 to -300.
 
-## 📊 Environment
+##  Environment
 
 - **Observation Space:** `[cos(theta), sin(theta), theta_dot]`
 - **Action Space:** `[-2, 2]` (continuous torque)
 - **Goal:** Keep the pendulum upright and still.
 
-## 📚 References
+##  References
 
 - Lillicrap, T. P., Hunt, J. J., Pritzel, A., et al. (2015). *Continuous control with deep reinforcement learning*. [arXiv:1509.02971](https://arxiv.org/abs/1509.02971)
 - Sutton, R. S., & Barto, A. G. (2018). *Reinforcement Learning: An Introduction* (2nd ed.). MIT Press.
 
 ---
 
-### 👨‍💻 Author
+###  Author
 
 **Rahim Baig**  
 Data Analyst, Community Planning & Advocacy Council  
